@@ -1,0 +1,242 @@
+[
+  {
+    "word": "pollution",
+    "ipa": "/pəˈluːʃn/",
+    "pos": "n",
+    "vi": "sự ô nhiễm",
+    "example": "Air pollution is a serious problem in many large cities.",
+    "collocation": "reduce pollution"
+  },
+  {
+    "word": "emission",
+    "ipa": "/iˈmɪʃn/",
+    "pos": "n",
+    "vi": "khí thải, sự phát thải",
+    "example": "Governments must cut carbon emission levels by 2030.",
+    "collocation": "carbon emission"
+  },
+  {
+    "word": "sustainable",
+    "ipa": "/səˈsteɪnəbl/",
+    "pos": "adj",
+    "vi": "bền vững",
+    "example": "We need a more sustainable way of producing food.",
+    "collocation": "sustainable development"
+  },
+  {
+    "word": "conservation",
+    "ipa": "/ˌkɒnsəˈveɪʃn/",
+    "pos": "n",
+    "vi": "sự bảo tồn",
+    "example": "Wildlife conservation requires international cooperation.",
+    "collocation": "wildlife conservation"
+  },
+  {
+    "word": "deforestation",
+    "ipa": "/diːˌfɒrɪˈsteɪʃn/",
+    "pos": "n",
+    "vi": "nạn phá rừng",
+    "example": "Deforestation destroys the habitat of countless species.",
+    "collocation": "tackle deforestation"
+  },
+  {
+    "word": "biodiversity",
+    "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+    "pos": "n",
+    "vi": "đa dạng sinh học",
+    "example": "Coral reefs are home to rich biodiversity.",
+    "collocation": "loss of biodiversity"
+  },
+  {
+    "word": "habitat",
+    "ipa": "/ˈhæbɪtæt/",
+    "pos": "n",
+    "vi": "môi trường sống",
+    "example": "Many animals lose their natural habitat when cities expand.",
+    "collocation": "natural habitat"
+  },
+  {
+    "word": "renewable",
+    "ipa": "/rɪˈnjuːəbl/",
+    "pos": "adj",
+    "vi": "có thể tái tạo",
+    "example": "Solar power is a renewable source of energy.",
+    "collocation": "renewable energy"
+  },
+  {
+    "word": "mitigate",
+    "ipa": "/ˈmɪtɪɡeɪt/",
+    "pos": "v",
+    "vi": "giảm nhẹ, làm dịu",
+    "example": "Planting trees can mitigate the effects of climate change.",
+    "collocation": "mitigate the effects"
+  },
+  {
+    "word": "contaminate",
+    "ipa": "/kənˈtæmɪneɪt/",
+    "pos": "v",
+    "vi": "làm nhiễm bẩn",
+    "example": "Factory waste can contaminate drinking water.",
+    "collocation": "contaminate water supplies"
+  },
+  {
+    "word": "ecosystem",
+    "ipa": "/ˈiːkəʊsɪstəm/",
+    "pos": "n",
+    "vi": "hệ sinh thái",
+    "example": "Plastic waste damages the marine ecosystem.",
+    "collocation": "fragile ecosystem"
+  },
+  {
+    "word": "endangered",
+    "ipa": "/ɪnˈdeɪndʒəd/",
+    "pos": "adj",
+    "vi": "có nguy cơ tuyệt chủng",
+    "example": "The tiger is an endangered species in many countries.",
+    "collocation": "endangered species"
+  },
+  {
+    "word": "extinction",
+    "ipa": "/ɪkˈstɪŋkʃn/",
+    "pos": "n",
+    "vi": "sự tuyệt chủng",
+    "example": "Hunting pushed the animal to the brink of extinction.",
+    "collocation": "brink of extinction"
+  },
+  {
+    "word": "drought",
+    "ipa": "/draʊt/",
+    "pos": "n",
+    "vi": "hạn hán",
+    "example": "The long drought ruined the farmers' crops.",
+    "collocation": "severe drought"
+  },
+  {
+    "word": "preserve",
+    "ipa": "/prɪˈzɜːv/",
+    "pos": "v",
+    "vi": "bảo tồn, giữ gìn",
+    "example": "We must preserve the forest for future generations.",
+    "collocation": "preserve natural resources"
+  },
+  {
+    "word": "depletion",
+    "ipa": "/dɪˈpliːʃn/",
+    "pos": "n",
+    "vi": "sự cạn kiệt",
+    "example": "Overfishing has led to the depletion of fish stocks.",
+    "collocation": "ozone depletion"
+  },
+  {
+    "word": "recycle",
+    "ipa": "/ˌriːˈsaɪkl/",
+    "pos": "v",
+    "vi": "tái chế",
+    "example": "Most households now recycle paper and glass.",
+    "collocation": "recycle waste"
+  },
+  {
+    "word": "disposal",
+    "ipa": "/dɪˈspəʊzl/",
+    "pos": "n",
+    "vi": "sự xử lý, vứt bỏ",
+    "example": "The safe disposal of nuclear waste is expensive.",
+    "collocation": "waste disposal"
+  },
+  {
+    "word": "fossil",
+    "ipa": "/ˈfɒsl/",
+    "pos": "adj",
+    "vi": "hóa thạch",
+    "example": "Burning fossil fuels releases greenhouse gases.",
+    "collocation": "fossil fuels"
+  },
+  {
+    "word": "degradation",
+    "ipa": "/ˌdeɡrəˈdeɪʃn/",
+    "pos": "n",
+    "vi": "sự suy thoái",
+    "example": "Overgrazing causes serious land degradation.",
+    "collocation": "environmental degradation"
+  },
+  {
+    "word": "footprint",
+    "ipa": "/ˈfʊtprɪnt/",
+    "pos": "n",
+    "vi": "dấu chân (lượng phát thải)",
+    "example": "Flying less is an easy way to shrink your carbon footprint.",
+    "collocation": "carbon footprint"
+  },
+  {
+    "word": "toxic",
+    "ipa": "/ˈtɒksɪk/",
+    "pos": "adj",
+    "vi": "độc hại",
+    "example": "The river was full of toxic chemicals.",
+    "collocation": "toxic waste"
+  },
+  {
+    "word": "famine",
+    "ipa": "/ˈfæmɪn/",
+    "pos": "n",
+    "vi": "nạn đói",
+    "example": "Crop failure led to widespread famine.",
+    "collocation": "widespread famine"
+  },
+  {
+    "word": "exploit",
+    "ipa": "/ɪkˈsplɔɪt/",
+    "pos": "v",
+    "vi": "khai thác (quá mức)",
+    "example": "Companies continue to exploit the rainforest for timber.",
+    "collocation": "exploit natural resources"
+  },
+  {
+    "word": "irreversible",
+    "ipa": "/ˌɪrɪˈvɜːsəbl/",
+    "pos": "adj",
+    "vi": "không thể đảo ngược",
+    "example": "Some damage to the climate may be irreversible.",
+    "collocation": "irreversible damage"
+  },
+  {
+    "word": "catastrophe",
+    "ipa": "/kəˈtæstrəfi/",
+    "pos": "n",
+    "vi": "thảm họa",
+    "example": "The oil spill was an environmental catastrophe.",
+    "collocation": "environmental catastrophe"
+  },
+  {
+    "word": "vulnerable",
+    "ipa": "/ˈvʌlnərəbl/",
+    "pos": "adj",
+    "vi": "dễ bị tổn thương",
+    "example": "Low-lying islands are vulnerable to rising sea levels.",
+    "collocation": "vulnerable to flooding"
+  },
+  {
+    "word": "emit",
+    "ipa": "/iˈmɪt/",
+    "pos": "v",
+    "vi": "thải ra, phát ra",
+    "example": "Cars emit large amounts of carbon dioxide.",
+    "collocation": "emit greenhouse gases"
+  },
+  {
+    "word": "organic",
+    "ipa": "/ɔːˈɡænɪk/",
+    "pos": "adj",
+    "vi": "hữu cơ",
+    "example": "Organic farming avoids the use of chemical pesticides.",
+    "collocation": "organic farming"
+  },
+  {
+    "word": "landfill",
+    "ipa": "/ˈlændfɪl/",
+    "pos": "n",
+    "vi": "bãi chôn lấp rác",
+    "example": "Most plastic ends up in a landfill.",
+    "collocation": "landfill site"
+  }
+]

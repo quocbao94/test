@@ -1,0 +1,7 @@
+project_id = "lexoria"
+
+[functions.npc-chat]
+verify_jwt = true
+
+[functions.grade-writing]
+verify_jwt = true

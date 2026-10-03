@@ -1,0 +1,242 @@
+[
+  {
+    "word": "innovation",
+    "ipa": "/ˌɪnəˈveɪʃn/",
+    "pos": "n",
+    "vi": "sự đổi mới, cải tiến",
+    "example": "Innovation drives economic growth.",
+    "collocation": "technological innovation"
+  },
+  {
+    "word": "automation",
+    "ipa": "/ˌɔːtəˈmeɪʃn/",
+    "pos": "n",
+    "vi": "sự tự động hóa",
+    "example": "Automation has replaced many factory jobs.",
+    "collocation": "workplace automation"
+  },
+  {
+    "word": "obsolete",
+    "ipa": "/ˈɒbsəliːt/",
+    "pos": "adj",
+    "vi": "lỗi thời",
+    "example": "Smartphones quickly become obsolete.",
+    "collocation": "become obsolete"
+  },
+  {
+    "word": "breakthrough",
+    "ipa": "/ˈbreɪkθruː/",
+    "pos": "n",
+    "vi": "bước đột phá",
+    "example": "Scientists made a major breakthrough in cancer research.",
+    "collocation": "major breakthrough"
+  },
+  {
+    "word": "cutting-edge",
+    "ipa": "/ˌkʌtɪŋ ˈedʒ/",
+    "pos": "adj",
+    "vi": "tiên tiến nhất",
+    "example": "The lab uses cutting-edge equipment.",
+    "collocation": "cutting-edge technology"
+  },
+  {
+    "word": "device",
+    "ipa": "/dɪˈvaɪs/",
+    "pos": "n",
+    "vi": "thiết bị",
+    "example": "Children spend hours on electronic devices.",
+    "collocation": "electronic device"
+  },
+  {
+    "word": "addictive",
+    "ipa": "/əˈdɪktɪv/",
+    "pos": "adj",
+    "vi": "gây nghiện",
+    "example": "Social media can be highly addictive.",
+    "collocation": "highly addictive"
+  },
+  {
+    "word": "privacy",
+    "ipa": "/ˈprɪvəsi/",
+    "pos": "n",
+    "vi": "quyền riêng tư",
+    "example": "Many users worry about online privacy.",
+    "collocation": "invasion of privacy"
+  },
+  {
+    "word": "surveillance",
+    "ipa": "/sɜːˈveɪləns/",
+    "pos": "n",
+    "vi": "sự giám sát",
+    "example": "Cameras provide constant surveillance in the city centre.",
+    "collocation": "mass surveillance"
+  },
+  {
+    "word": "artificial",
+    "ipa": "/ˌɑːtɪˈfɪʃl/",
+    "pos": "adj",
+    "vi": "nhân tạo",
+    "example": "Artificial intelligence is changing many industries.",
+    "collocation": "artificial intelligence"
+  },
+  {
+    "word": "algorithm",
+    "ipa": "/ˈælɡərɪðəm/",
+    "pos": "n",
+    "vi": "thuật toán",
+    "example": "The algorithm decides which posts you see.",
+    "collocation": "search algorithm"
+  },
+  {
+    "word": "virtual",
+    "ipa": "/ˈvɜːtʃuəl/",
+    "pos": "adj",
+    "vi": "ảo",
+    "example": "Students can now take virtual tours of museums.",
+    "collocation": "virtual reality"
+  },
+  {
+    "word": "digital",
+    "ipa": "/ˈdɪdʒɪtl/",
+    "pos": "adj",
+    "vi": "kỹ thuật số",
+    "example": "Older people may struggle with digital skills.",
+    "collocation": "digital literacy"
+  },
+  {
+    "word": "connectivity",
+    "ipa": "/ˌkɒnekˈtɪvəti/",
+    "pos": "n",
+    "vi": "khả năng kết nối",
+    "example": "Rural areas often lack internet connectivity.",
+    "collocation": "internet connectivity"
+  },
+  {
+    "word": "cyberbullying",
+    "ipa": "/ˈsaɪbəbʊliɪŋ/",
+    "pos": "n",
+    "vi": "bắt nạt trên mạng",
+    "example": "Cyberbullying can have serious effects on teenagers.",
+    "collocation": "victim of cyberbullying"
+  },
+  {
+    "word": "revolutionize",
+    "ipa": "/ˌrevəˈluːʃənaɪz/",
+    "pos": "v",
+    "vi": "cách mạng hóa",
+    "example": "The internet has revolutionized the way we communicate.",
+    "collocation": "revolutionize the industry"
+  },
+  {
+    "word": "facilitate",
+    "ipa": "/fəˈsɪlɪteɪt/",
+    "pos": "v",
+    "vi": "tạo điều kiện, làm dễ dàng",
+    "example": "Email can facilitate communication between colleagues.",
+    "collocation": "facilitate communication"
+  },
+  {
+    "word": "dependence",
+    "ipa": "/dɪˈpendəns/",
+    "pos": "n",
+    "vi": "sự phụ thuộc",
+    "example": "Our dependence on technology is growing.",
+    "collocation": "heavy dependence"
+  },
+  {
+    "word": "sedentary",
+    "ipa": "/ˈsedntri/",
+    "pos": "adj",
+    "vi": "ít vận động",
+    "example": "Screen time encourages a sedentary lifestyle.",
+    "collocation": "sedentary lifestyle"
+  },
+  {
+    "word": "gadget",
+    "ipa": "/ˈɡædʒɪt/",
+    "pos": "n",
+    "vi": "thiết bị, đồ công nghệ nhỏ",
+    "example": "He loves buying the latest gadget.",
+    "collocation": "latest gadget"
+  },
+  {
+    "word": "breach",
+    "ipa": "/briːtʃ/",
+    "pos": "n",
+    "vi": "sự vi phạm, rò rỉ",
+    "example": "The company suffered a massive data breach.",
+    "collocation": "data breach"
+  },
+  {
+    "word": "encryption",
+    "ipa": "/ɪnˈkrɪpʃn/",
+    "pos": "n",
+    "vi": "sự mã hóa",
+    "example": "Encryption keeps messages safe from hackers.",
+    "collocation": "end-to-end encryption"
+  },
+  {
+    "word": "interactive",
+    "ipa": "/ˌɪntərˈæktɪv/",
+    "pos": "adj",
+    "vi": "có tính tương tác",
+    "example": "Interactive lessons keep students engaged.",
+    "collocation": "interactive learning"
+  },
+  {
+    "word": "misinformation",
+    "ipa": "/ˌmɪsɪnfəˈmeɪʃn/",
+    "pos": "n",
+    "vi": "thông tin sai lệch",
+    "example": "Misinformation spreads quickly on social networks.",
+    "collocation": "spread misinformation"
+  },
+  {
+    "word": "infrastructure",
+    "ipa": "/ˈɪnfrəstrʌktʃə/",
+    "pos": "n",
+    "vi": "cơ sở hạ tầng",
+    "example": "The country invested heavily in digital infrastructure.",
+    "collocation": "digital infrastructure"
+  },
+  {
+    "word": "remote",
+    "ipa": "/rɪˈməʊt/",
+    "pos": "adj",
+    "vi": "từ xa",
+    "example": "Remote work became common after 2020.",
+    "collocation": "remote work"
+  },
+  {
+    "word": "streamline",
+    "ipa": "/ˈstriːmlaɪn/",
+    "pos": "v",
+    "vi": "tinh gọn, hợp lý hóa",
+    "example": "Software can streamline the ordering process.",
+    "collocation": "streamline the process"
+  },
+  {
+    "word": "vulnerability",
+    "ipa": "/ˌvʌlnərəˈbɪləti/",
+    "pos": "n",
+    "vi": "lỗ hổng, điểm yếu",
+    "example": "Hackers found a vulnerability in the system.",
+    "collocation": "security vulnerability"
+  },
+  {
+    "word": "pioneer",
+    "ipa": "/ˌpaɪəˈnɪə/",
+    "pos": "n",
+    "vi": "người tiên phong",
+    "example": "She was a pioneer in computer science.",
+    "collocation": "pioneer in the field"
+  },
+  {
+    "word": "user-friendly",
+    "ipa": "/ˌjuːzə ˈfrendli/",
+    "pos": "adj",
+    "vi": "thân thiện với người dùng",
+    "example": "The new app is very user-friendly.",
+    "collocation": "user-friendly interface"
+  }
+]
