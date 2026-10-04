@@ -34,7 +34,8 @@ function correctOption(prompt, context, options) {
 // Run Vite's own entry (not `npx`) so server.kill() stops the actual server
 const server = spawn(
   process.execPath,
-  ["node_modules/vite/bin/vite.js", "--port", String(PORT), "--strictPort"],
+  // `--mode e2e` keeps .env.development out, so this test always runs offline
+  ["node_modules/vite/bin/vite.js", "--port", String(PORT), "--strictPort", "--mode", "e2e"],
   {
     cwd: new URL("..", import.meta.url).pathname,
     stdio: "pipe",

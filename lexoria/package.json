@@ -11,7 +11,9 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "vitest run",
-    "e2e": "node e2e/smoke.mjs"
+    "test:cloud": "vitest run src/lib/sync.cloud.test.ts --mode development",
+    "e2e": "node e2e/smoke.mjs",
+    "e2e:cloud": "node e2e/cloud.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
