@@ -129,6 +129,26 @@ try {
     await fail("pulled wrong save: " + JSON.stringify(pulled));
   await phone.screenshot({ path: SHOTS + "cloud-02-second-device.png" });
 
+  // A signed-in player talks to an NPC: Claude's answer, or the offline lines while AI is off — never an error
+  await phone.evaluate(() =>
+    window.__lexoria.useUi.getState().open({ type: "dialogue", npcId: "guard" }),
+  );
+  const npcBubbles = phone.locator(".bubble.npc");
+  const before = await npcBubbles.count();
+  await phone.getByPlaceholder("Type in English…").fill("Hello, may I pass?");
+  await phone.getByRole("button", { name: "Gửi" }).click();
+  await phone.waitForFunction(
+    (n) => {
+      const b = document.querySelectorAll(".bubble.npc");
+      return b.length > n && !b[b.length - 1].textContent.trim().startsWith("…");
+    },
+    before,
+    { timeout: 30000 },
+  );
+  if (await phone.locator("[style*='--bad']").count()) await fail("NPC chat showed an error");
+  await phone.screenshot({ path: SHOTS + "cloud-03-npc-chat.png" });
+  await phone.evaluate(() => window.__lexoria.useUi.getState().close());
+
   // Logout clears the session
   await phone.evaluate(() => window.__lexoria.useUi.getState().open({ type: "character" }));
   await phone.getByRole("button", { name: "Đăng xuất" }).click();

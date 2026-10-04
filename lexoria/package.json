@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "vitest run",
-    "test:cloud": "vitest run src/lib/sync.cloud.test.ts --mode development",
+    "test:cloud": "vitest run cloud.test --mode development",
     "e2e": "node e2e/smoke.mjs",
     "e2e:cloud": "node e2e/cloud.mjs"
   },

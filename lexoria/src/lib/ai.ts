@@ -15,7 +15,15 @@ export interface NpcFeedback {
   vocab_suggestions: { word: string; meaning_vi: string }[];
 }
 
-export class AiError extends Error {}
+export class AiError extends Error {
+  /** The server has no Claude key yet — fall back to offline behaviour. */
+  constructor(
+    message: string,
+    readonly offline = false,
+  ) {
+    super(message);
+  }
+}
 
 async function authHeaders(): Promise<Record<string, string>> {
   if (!supabase) throw new AiError("Chưa cấu hình máy chủ — đang chạy chế độ offline.");
@@ -37,12 +45,15 @@ async function callFunction(name: string, body: unknown): Promise<Response> {
   });
   if (!res.ok) {
     let msg = `Lỗi máy chủ (${res.status})`;
+    let code: string | undefined;
     try {
-      msg = (await res.json()).error ?? msg;
+      const data = await res.json();
+      msg = data.error ?? msg;
+      code = data.code;
     } catch {
       /* not JSON */
     }
-    throw new AiError(msg);
+    throw new AiError(msg, code === "ai_disabled");
   }
   return res;
 }

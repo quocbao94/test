@@ -53,14 +53,16 @@ npm run build                                   # bản production + service wor
 
 Repo đã kèm `.env.development` trỏ tới project `lexoria-dev` (ref `iamekgumxtxsuadgxfeg`, Singapore): đã chạy
 migration, bật đăng nhập Email, Redirect URLs gồm `http://localhost:5173` và `http://localhost:4173`. Vì vậy
-`npm run dev` có sẵn đăng nhập + đồng bộ đám mây; `npm run e2e` vẫn chạy offline (`--mode e2e`). Chưa deploy
-Edge Functions / chưa có khóa Claude.
+`npm run dev` có sẵn đăng nhập + đồng bộ đám mây; `npm run e2e` vẫn chạy offline (`--mode e2e`). Edge Functions
+`npc-chat` và `grade-writing` đã deploy nhưng **chưa đặt `ANTHROPIC_API_KEY`**: khi đó function trả 503
+`ai_disabled` (không trừ hạn mức), NPC tự chuyển sang lời thoại offline, Lò rèn báo "AI chưa được bật". Đặt khóa
+bằng `supabase secrets set ANTHROPIC_API_KEY=...` là AI chạy, không cần deploy lại.
 
 Kiểm tra với project thật (cần service role key, lấy ở Supabase → Project Settings → API Keys; không commit):
 
 ```bash
-SUPABASE_SERVICE_ROLE_KEY=... npm run test:cloud   # đăng nhập email, đẩy/kéo save, RLS chặn người khác
-SUPABASE_SERVICE_ROLE_KEY=... npm run e2e:cloud    # trình duyệt: magic link → đồng bộ → máy thứ 2 tải save
+SUPABASE_SERVICE_ROLE_KEY=... npm run test:cloud   # đăng nhập email, đẩy/kéo save, RLS, Edge Functions
+SUPABASE_SERVICE_ROLE_KEY=... npm run e2e:cloud    # trình duyệt: magic link → đồng bộ → máy thứ 2 tải save → NPC
 ```
 
 Hai test tự tạo và tự xoá user `lexoria-*@example.com`.

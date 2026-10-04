@@ -63,11 +63,11 @@ export function Dialogue({ npcId }: { npcId: NpcId }) {
       useGame.getState().progressQuest("talk");
     }
 
-    if (!online) {
+    const offlineReply = () => {
       const line = npc.offlineLines[offlineIdx.current++ % npc.offlineLines.length];
       setMessages([...history, { role: "assistant", content: line }]);
-      return;
-    }
+    };
+    if (!online) return offlineReply();
 
     setBusy(true);
     try {
@@ -77,6 +77,11 @@ export function Dialogue({ npcId }: { npcId: NpcId }) {
       );
       setMessages([...history, { role: "assistant", content: reply }]);
     } catch (e) {
+      if (e instanceof AiError && e.offline) {
+        setOnline(false);
+        offlineReply();
+        return;
+      }
       setMessages(history);
       setError(e instanceof AiError ? e.message : "Không kết nối được tới NPC.");
     } finally {
@@ -88,12 +93,9 @@ export function Dialogue({ npcId }: { npcId: NpcId }) {
     setBusy(true);
     setError(null);
     try {
-      let fb: NpcFeedback;
-      if (online) {
-        fb = await npcFeedback(npcId, messages);
-      } else {
+      const offlineFeedback = (): NpcFeedback => {
         const ok = goal ? offlineGoalCheck(messages) : true;
-        fb = {
+        return {
           goal_achieved: ok,
           goal_comment_vi: ok
             ? "Bạn đã đưa ra lý do rõ ràng. (Chấm offline đơn giản — đăng nhập để Claude nhận xét chi tiết.)"
@@ -102,6 +104,14 @@ export function Dialogue({ npcId }: { npcId: NpcId }) {
           natural_phrases: [],
           vocab_suggestions: [],
         };
+      };
+      let fb: NpcFeedback;
+      try {
+        fb = online ? await npcFeedback(npcId, messages) : offlineFeedback();
+      } catch (e) {
+        if (!(e instanceof AiError && e.offline)) throw e;
+        setOnline(false);
+        fb = offlineFeedback();
       }
       setFeedback(fb);
       const s = useGame.getState();

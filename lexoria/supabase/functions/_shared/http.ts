@@ -25,6 +25,9 @@ const DAILY_LIMIT = Number(Deno.env.get("AI_DAILY_LIMIT") ?? "40");
 
 /** Resolve the signed-in player and consume one AI call from today's quota. */
 export async function authorize(req: Request): Promise<{ userId: string } | Response> {
+  // Without a Claude key, tell the client to stay offline instead of burning quota on failed calls
+  if (!Deno.env.get("ANTHROPIC_API_KEY"))
+    return json({ error: "AI chưa được bật trên máy chủ.", code: "ai_disabled" }, 503);
   const token = req.headers.get("Authorization")?.replace(/^Bearer\s+/i, "");
   if (!token) return json({ error: "Hãy đăng nhập để dùng tính năng AI." }, 401);
   const { data, error } = await admin.auth.getUser(token);
