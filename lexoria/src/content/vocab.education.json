@@ -1,0 +1,242 @@
+[
+  {
+    "word": "curriculum",
+    "ipa": "/kəˈrɪkjələm/",
+    "pos": "n",
+    "vi": "chương trình giảng dạy",
+    "example": "Coding should be part of the school curriculum.",
+    "collocation": "national curriculum"
+  },
+  {
+    "word": "literacy",
+    "ipa": "/ˈlɪtərəsi/",
+    "pos": "n",
+    "vi": "khả năng đọc viết",
+    "example": "Adult literacy rates have improved dramatically.",
+    "collocation": "literacy rate"
+  },
+  {
+    "word": "tuition",
+    "ipa": "/tjuˈɪʃn/",
+    "pos": "n",
+    "vi": "học phí; sự dạy kèm",
+    "example": "University tuition fees have risen sharply.",
+    "collocation": "tuition fees"
+  },
+  {
+    "word": "compulsory",
+    "ipa": "/kəmˈpʌlsəri/",
+    "pos": "adj",
+    "vi": "bắt buộc",
+    "example": "Education is compulsory until the age of sixteen.",
+    "collocation": "compulsory education"
+  },
+  {
+    "word": "vocational",
+    "ipa": "/vəʊˈkeɪʃənl/",
+    "pos": "adj",
+    "vi": "thuộc nghề nghiệp",
+    "example": "Vocational training prepares students for specific jobs.",
+    "collocation": "vocational training"
+  },
+  {
+    "word": "discipline",
+    "ipa": "/ˈdɪsəplɪn/",
+    "pos": "n",
+    "vi": "kỷ luật",
+    "example": "Teachers struggle to maintain discipline in large classes.",
+    "collocation": "maintain discipline"
+  },
+  {
+    "word": "assessment",
+    "ipa": "/əˈsesmənt/",
+    "pos": "n",
+    "vi": "sự đánh giá",
+    "example": "Continuous assessment is fairer than a single final exam.",
+    "collocation": "continuous assessment"
+  },
+  {
+    "word": "academic",
+    "ipa": "/ˌækəˈdemɪk/",
+    "pos": "adj",
+    "vi": "thuộc học thuật",
+    "example": "She has excellent academic results.",
+    "collocation": "academic performance"
+  },
+  {
+    "word": "scholarship",
+    "ipa": "/ˈskɒləʃɪp/",
+    "pos": "n",
+    "vi": "học bổng",
+    "example": "He won a scholarship to study abroad.",
+    "collocation": "full scholarship"
+  },
+  {
+    "word": "enroll",
+    "ipa": "/ɪnˈrəʊl/",
+    "pos": "v",
+    "vi": "đăng ký nhập học",
+    "example": "More adults enroll in online courses every year.",
+    "collocation": "enroll in a course"
+  },
+  {
+    "word": "graduate",
+    "ipa": "/ˈɡrædʒueɪt/",
+    "pos": "v",
+    "vi": "tốt nghiệp",
+    "example": "She will graduate from university next summer.",
+    "collocation": "graduate with honours"
+  },
+  {
+    "word": "pedagogy",
+    "ipa": "/ˈpedəɡɒdʒi/",
+    "pos": "n",
+    "vi": "phương pháp sư phạm",
+    "example": "Modern pedagogy focuses on active learning.",
+    "collocation": "modern pedagogy"
+  },
+  {
+    "word": "extracurricular",
+    "ipa": "/ˌekstrəkəˈrɪkjələ/",
+    "pos": "adj",
+    "vi": "ngoại khóa",
+    "example": "Extracurricular activities help children develop social skills.",
+    "collocation": "extracurricular activities"
+  },
+  {
+    "word": "rote",
+    "ipa": "/rəʊt/",
+    "pos": "n",
+    "vi": "sự học vẹt",
+    "example": "Learning by rote does not develop critical thinking.",
+    "collocation": "rote learning"
+  },
+  {
+    "word": "critical",
+    "ipa": "/ˈkrɪtɪkl/",
+    "pos": "adj",
+    "vi": "phản biện; quan trọng",
+    "example": "Universities should teach critical thinking.",
+    "collocation": "critical thinking"
+  },
+  {
+    "word": "mentor",
+    "ipa": "/ˈmentɔː/",
+    "pos": "n",
+    "vi": "người cố vấn",
+    "example": "A good mentor can guide young professionals.",
+    "collocation": "act as a mentor"
+  },
+  {
+    "word": "dropout",
+    "ipa": "/ˈdrɒpaʊt/",
+    "pos": "n",
+    "vi": "sự bỏ học; người bỏ học",
+    "example": "The dropout rate is higher in rural schools.",
+    "collocation": "dropout rate"
+  },
+  {
+    "word": "qualification",
+    "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+    "pos": "n",
+    "vi": "bằng cấp",
+    "example": "Many jobs require a university qualification.",
+    "collocation": "professional qualification"
+  },
+  {
+    "word": "acquire",
+    "ipa": "/əˈkwaɪə/",
+    "pos": "v",
+    "vi": "tiếp thu, đạt được",
+    "example": "Children acquire languages more easily than adults.",
+    "collocation": "acquire knowledge"
+  },
+  {
+    "word": "motivation",
+    "ipa": "/ˌməʊtɪˈveɪʃn/",
+    "pos": "n",
+    "vi": "động lực",
+    "example": "Lack of motivation is a common problem among students.",
+    "collocation": "lack of motivation"
+  },
+  {
+    "word": "plagiarism",
+    "ipa": "/ˈpleɪdʒərɪzəm/",
+    "pos": "n",
+    "vi": "đạo văn",
+    "example": "Plagiarism is taken very seriously at university.",
+    "collocation": "accused of plagiarism"
+  },
+  {
+    "word": "proficiency",
+    "ipa": "/prəˈfɪʃnsi/",
+    "pos": "n",
+    "vi": "sự thành thạo",
+    "example": "An IELTS score proves your English proficiency.",
+    "collocation": "language proficiency"
+  },
+  {
+    "word": "inclusive",
+    "ipa": "/ɪnˈkluːsɪv/",
+    "pos": "adj",
+    "vi": "hòa nhập, bao gồm mọi người",
+    "example": "Schools should provide an inclusive environment.",
+    "collocation": "inclusive education"
+  },
+  {
+    "word": "undergraduate",
+    "ipa": "/ˌʌndəˈɡrædʒuət/",
+    "pos": "n",
+    "vi": "sinh viên đại học (chưa tốt nghiệp)",
+    "example": "Every undergraduate must complete a dissertation.",
+    "collocation": "undergraduate degree"
+  },
+  {
+    "word": "dissertation",
+    "ipa": "/ˌdɪsəˈteɪʃn/",
+    "pos": "n",
+    "vi": "luận văn",
+    "example": "He spent a year writing his dissertation.",
+    "collocation": "write a dissertation"
+  },
+  {
+    "word": "cognitive",
+    "ipa": "/ˈkɒɡnətɪv/",
+    "pos": "adj",
+    "vi": "thuộc nhận thức",
+    "example": "Reading improves cognitive development in children.",
+    "collocation": "cognitive development"
+  },
+  {
+    "word": "self-discipline",
+    "ipa": "/ˌself ˈdɪsəplɪn/",
+    "pos": "n",
+    "vi": "tính tự giác",
+    "example": "Online learning requires a lot of self-discipline.",
+    "collocation": "require self-discipline"
+  },
+  {
+    "word": "lecture",
+    "ipa": "/ˈlektʃə/",
+    "pos": "n",
+    "vi": "bài giảng",
+    "example": "Students can watch the lecture online.",
+    "collocation": "attend a lecture"
+  },
+  {
+    "word": "tertiary",
+    "ipa": "/ˈtɜːʃəri/",
+    "pos": "adj",
+    "vi": "bậc đại học, cao đẳng",
+    "example": "Tertiary education should be free for everyone.",
+    "collocation": "tertiary education"
+  },
+  {
+    "word": "aptitude",
+    "ipa": "/ˈæptɪtjuːd/",
+    "pos": "n",
+    "vi": "năng khiếu",
+    "example": "She showed an early aptitude for mathematics.",
+    "collocation": "natural aptitude"
+  }
+]
